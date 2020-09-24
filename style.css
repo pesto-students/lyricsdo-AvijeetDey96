@@ -18,7 +18,7 @@
 }
 header{
   background-image: url(./assets/background.jpg);
-  height: 1000vh;
+  height: 100%;
   background-size: cover;
   background-position: center;
 }
@@ -47,6 +47,7 @@ color: #000000;
 .logo img{
   height: auto;
   width: 150px;
+  flex:center
 }
  .searchDesign{
   width: 100%;
@@ -81,9 +82,23 @@ font-size: 5px;
 .container{
   margin-bottom: 20px;
 }
-.info-text{
+.infoText{
+  font-size: 30px;
   color: white;
-    font-weight: bold;
-    font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 6px 2px #00000063;
 }
- 
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}

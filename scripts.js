@@ -91,7 +91,7 @@ list.innerHTML +=`
  }
  function showLyrics(lyrics) {
   dispalyLyrics.innerHTML =`
-  <divclass="container info-text" >
+  <div class="container infoText" >
   ${lyrics}
   </div>
   `;
